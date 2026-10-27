@@ -3,9 +3,7 @@
 
 本目录包含独立的预测源码、模板库、权重、比对工具和本机 Python 环境，运行不依赖原来的 `pmgen` 文件夹。它不是新训练的 AlphaFold 模型；默认使用 **AF2 原版 `model_2_ptm` 参数**。不包含 ProteinMPNN 肽生成、BioEmu 和结合亲和力筛选流程。
 
-英文介绍（恰好 300 characters，包含空格和标点，另见 [INTRODUCTION.txt](INTRODUCTION.txt)）：
 
-> MHCalphafold is a standalone pipeline for peptide-MHC structure prediction built on AlphaFold2. It combines pMHC templates, anchor-guided initial coordinates, and confidence-based model selection. It provides reproducible setup and inference workflows while retaining the original AlphaFold2 weights.
 
 ## 1. 相对于 AlphaFold2 做了什么适配
 
