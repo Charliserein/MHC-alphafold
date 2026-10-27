@@ -1,6 +1,5 @@
 # MHCalphafold
-
-从 [PMGen](https://github.com/soedinglab/PMGen) 单独抽取的 **肽–MHC（pMHC）AlphaFold2 结构预测模块**。输入肽序列和 MHC 序列，完成模板检索、锚点对齐、结构预测、置信度计算与候选选优，输出复合物 PDB。
+ **肽–MHC（pMHC）AlphaFold2 结构预测模块**。输入肽序列和 MHC 序列，完成模板检索、锚点对齐、结构预测、置信度计算与候选选优，输出复合物 PDB。
 
 本目录包含独立的预测源码、模板库、权重、比对工具和本机 Python 环境，运行不依赖原来的 `pmgen` 文件夹。它不是新训练的 AlphaFold 模型；默认使用 **AF2 原版 `model_2_ptm` 参数**。不包含 ProteinMPNN 肽生成、BioEmu 和结合亲和力筛选流程。
 
