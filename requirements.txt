@@ -1,0 +1,23 @@
+# Python 3.10 / Linux x86_64 / NVIDIA CUDA 12；经本机验证的固定版本。
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.2.3
+biopython==1.80
+jax==0.4.35
+jaxlib==0.4.34
+jax-cuda12-plugin==0.4.34
+jax-cuda12-pjrt==0.4.34
+dm-haiku==0.0.13
+dm-tree==0.1.8
+chex==0.1.88
+optax==0.2.4
+jmp==0.0.4
+ml-collections==0.1.1
+tensorflow-cpu==2.17.1
+ml-dtypes==0.4.1
+protobuf==4.25.5
+joblib==1.4.2
+psutil==6.1.1
+python-Levenshtein==0.26.1
+urllib3==1.26.14
+importlib-resources==6.5.2

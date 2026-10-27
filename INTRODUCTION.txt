@@ -1,0 +1,1 @@
+MHCalphafold is a standalone pipeline for peptide-MHC structure prediction built on AlphaFold2. It combines pMHC templates, anchor-guided initial coordinates, and confidence-based model selection. It provides reproducible setup and inference workflows while retaining the original AlphaFold2 weights.

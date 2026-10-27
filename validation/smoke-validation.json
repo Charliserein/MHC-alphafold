@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-27T17:33:09.797561+08:00",
+  "cases": [
+    {
+      "folder": "outputs/smoke_mhc1",
+      "passed": true,
+      "samples": [
+        {
+          "id": "mhc1_demo",
+          "mhc_type": 1,
+          "residues": 193,
+          "peptide_mean_plddt": 89.35378233827885,
+          "core_plddt": 88.48299542961608,
+          "structure_chains": 2,
+          "pdb_sha256": "b8a4a825f4fa3f4ae158dcbcbf4f0b8c198be5e0b42cb2a50227aabba60d1ce1"
+        }
+      ]
+    },
+    {
+      "folder": "outputs/prepare_mhc2",
+      "passed": true,
+      "samples": [
+        {
+          "id": "mhc2_demo",
+          "mhc_type": 2,
+          "residues": 380,
+          "peptide_mean_plddt": 93.12749288584132,
+          "core_plddt": 97.59453791315534,
+          "structure_chains": 3,
+          "pdb_sha256": "77acc898aeefda538ef5df89bd83551063dfaa0c4befa88112c1aab8d3dea325"
+        }
+      ]
+    },
+    {
+      "folder": "outputs/smoke_parallel",
+      "passed": true,
+      "samples": [
+        {
+          "id": "parallel_first",
+          "mhc_type": 1,
+          "residues": 193,
+          "peptide_mean_plddt": 84.34907723398481,
+          "core_plddt": 83.66389931840469,
+          "structure_chains": 2,
+          "pdb_sha256": "785545f415f58dc1bb84297566e940652d9fa0ce8b244246315f88b2dc912f1b"
+        },
+        {
+          "id": "parallel_second",
+          "mhc_type": 1,
+          "residues": 193,
+          "peptide_mean_plddt": 56.99456440483476,
+          "core_plddt": 57.90870809343862,
+          "structure_chains": 2,
+          "pdb_sha256": "1659b5b0c7e88abc91827ca09135052448f35da1456b4ee27023ea071ffb1ea3"
+        }
+      ]
+    }
+  ],
+  "contract_tests": 8,
+  "original_background_job": {
+    "pid": 4028587,
+    "status": "running",
+    "completed_inputs": 2133,
+    "active_workers": 12,
+    "failed_inputs": 0
+  },
+  "limitations": [
+    "TE / NetMHC / fine-tuned parameters / advanced sampling not end-to-end tested",
+    "smoke samples are functionality checks, not leakage-controlled accuracy benchmarks"
+  ]
+}

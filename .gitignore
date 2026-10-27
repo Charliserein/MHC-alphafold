@@ -1,0 +1,16 @@
+.venv/
+.runtime/
+.cache/
+__pycache__/
+*.pyc
+outputs/
+resources/
+AFfine/af_params/
+*.local.json
+private/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log

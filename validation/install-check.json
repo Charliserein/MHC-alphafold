@@ -1,0 +1,26 @@
+{
+  "python": "/home/c/czh/MHCalphafold/.venv/bin/python",
+  "python_base": "/home/c/czh/MHCalphafold/.runtime/python",
+  "jax": "0.4.35",
+  "haiku": "0.0.13",
+  "tensorflow": "2.17.1",
+  "numpy": "1.26.4",
+  "pandora_source": "/home/c/czh/MHCalphafold/PANDORA/PANDORA/__init__.py",
+  "af2_source": "/home/c/czh/MHCalphafold/AFfine/alphafold/model/modules.py",
+  "database": "/home/c/czh/MHCalphafold/resources/pandora_db",
+  "templates_mhc1": 864,
+  "templates_mhc2": 136,
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ],
+  "gpu_available": true,
+  "optional_modeller_installed": false,
+  "optional_netmhcpan_configured": false,
+  "optional_netmhciipan_configured": false,
+  "blastp": "blastp: 2.12.0+\n Package: blast 2.12.0, build Apr  1 2024 07:01:27",
+  "muscle": "muscle 5.2.linux64 [-]\nBuilt Nov  5 2022 18:45:38",
+  "default_weights_present": true,
+  "local_sources": true,
+  "passed": true
+}
